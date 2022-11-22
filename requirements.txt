@@ -1,3 +1,4 @@
-PyPDF2
-googletrans
-spellchecker
+PyPDF2==2.10.0
+googletrans==3.1.0a0
+spellchecker==0.4
+pyspellchecker==0.7.0
