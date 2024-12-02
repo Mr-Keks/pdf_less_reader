@@ -1,15 +1,17 @@
 # pdf_less_reader
 
-## Як це працює
+## How it works
 
-0. Перевіряєте чи у вас встановлений *python*. Вікриваєте термінал і пишете команду ```python```. Якщо у вас показує версію, то переходите далі. Якщо ні то встановлюєте python з: [офіційного сайту](https://www.python.org/) 
-1. Запускаєте файл **install_packages**.
-2. Берете свій текст і вставляєте його в файл **original_text**. Зберігаєте.
-3. Запускаєте файл **run**.
-4. Вікриваєте файл **transtated_text** у якому буде ваш перекладений текст або файл **clear_text** у якому буде вже відформатований текст без відступів.
+0. Check if you have *python* installed. Open the terminal and write the command ``python``. If you see the version, then move on. If not, install python from: [official site](https://www.python.org/) 
+1. Run the file **install_packages**.
+2. Take your text and paste it into the **original_text** file. Save it.
+3. Run the **run** file.
+4. Open the **transtated_text** file, which will contain your translated text or the **clear_text** file, which will contain the already formatted text without indentation.
 
-## Помилки
+## Errors
 
- Може бути таке, що файл **clear_text** пустий після запуски **run**. Це буває через конфлікт версій пакетів, тоді робіть наступне:
+ It may happen that the **clear_text** file is empty after running **run**. This happens due to a conflict in package versions, then do the following:
  
- 1. Вікрийте термінал. Напишіть команду ```pip uninstall pyspellchecker``` та дочекайтеся її виконання. Тоді напишіть ```pip install pyspellchecker```, дочекайтеся її виконання та запускатей файл **run** знову.
+ 1. Open the terminal. Write the command ``pip uninstall pyspellchecker'' and wait for it to execute. Then write ``pip i
+
+Translated with DeepL.com (free version)nstall pyspellchecker```, дочекайтеся її виконання та запускатей файл **run** знову.
